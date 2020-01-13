@@ -1,0 +1,68 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+		{
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                // "navigationBarTitleText": "邮箱找回密码"
+				"navigationStyle": "custom"
+            }
+        }, {
+            "path": "pages/personal information/personal information",
+            "style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#000000"
+
+            }
+        },{
+			"path": "pages/i-infor/i-infor",
+			"style": {
+				//"navigationBarTitleText": "uni-app"
+				"navigationStyle": "custom"
+			}
+		}, {
+            "path" : "pages/blank/blank",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe"
+    },
+	"tabBar": {
+	    "color": "#000000",
+	    "selectedColor": "#000000",
+	    "backgroundColor": "white",
+	    "list": [{
+	      "pagePath": "pages/i-infor/i-infor",
+	      "text": "首页",
+	      "iconPath":"../../static/u31.png",
+	      "selectedIconPath":"../../static/i-infor/u31.png"
+	    }, 
+	    {
+	      "pagePath": "pages/i-infor/i-infor",      
+	      "text": "朋友圈",
+	      "iconPath":"../../static/u32.png",
+	      "selectedIconPath":"../../static/i-infor/u32.png"
+	    },
+	    {
+	      "pagePath": "pages/i-infor/i-infor",      
+	      "text": "意见簿",
+	      "iconPath":"../../static/u33.png",
+	      "selectedIconPath":"../../static/i-infor/u33.png"
+	    },
+	    {
+	      "pagePath": "pages/i-infor/i-infor",      
+	      "text": "我的",
+	      "iconPath":"../../static/u34.png",
+	      "selectedIconPath":"../../static/i-infor/u34.png"
+	    }  ]
+	}
+}
